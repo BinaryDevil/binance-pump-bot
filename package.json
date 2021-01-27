@@ -1,0 +1,21 @@
+{
+  "name": "binance-pump-bot",
+  "version": "1.0.0",
+  "description": "Automation for binance p&d activity",
+  "main": "pump.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "chrome-launcher": "^0.13.4",
+    "node-binance-api": "^0.12.4",
+    "ws": "^7.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node pump.js",
+    "ico": "node ico.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

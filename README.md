@@ -10,7 +10,7 @@ Read these before you proceed.
 - You are very likely to lose money.
 - Invest only what you can afford to lose.
 
-But, `if you think there is profit window in pump & dumps`, here's a little tool for you.
+But, `if you think there is a profit window in pump & dumps`, like I did, here's a little tool for you.
 
 ## Prerequisites
 
@@ -55,3 +55,5 @@ and follow the command output instructions.
 `The coin name is case ignored, you can input lower case.`
 
 Sell orders are triggered automatically by configuration in `pump-config.js`, or manually with hotkeys(`check command line output`).
+
+All orders placed by this script will show up in your Binance app or Binance.com as well. You can review these for next-time-better-strategies.

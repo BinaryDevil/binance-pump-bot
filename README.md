@@ -1,6 +1,6 @@
 # binance-pump-bot
 
-Automation for Binance p&d(pump and dump) activity.
+Automation for Binance p&d(pump and dump) activity, ensures fastest purchase and provides auto selling functionality to lockdown profit during these events.
 
 ## Important notes
 

@@ -34,13 +34,47 @@ You can request for one after logging into their [official site](binance.com).
 
 And then you're all set.
 
+## Configuration
+
+See `pump-config.js`, the `TRADE_IN` is important, it's the coin to trade for the pumped coin, usually it's `BTC`.
+
+default configurations are as follow, you can tweak these settings as you like:
+
+```js
+let config = {}
+
+// Config HERE
+// !!! The coin to trade in, make sure you have some in your balance
+config.TRADE_IN = 'BTC'
+// Should market price BUY ALL upon symbol
+config.BUY_UPON_SYMBOL = true
+// How many X before take profit happens (will sell 100%)
+config.HARD_TAKE_PROFIT = 3.3
+// Where to stop loss
+config.HARD_STOP_LOSS = 0.75
+// Soft stop loss (Array, please put in ascending order, orders will be put in quantity of divide of the array length, e.g length = 3 then sell 1/3 every time)
+// Not used anymore, bugs exist
+// config.SOFT_TAKE_PROFIT = [5, 6, 7, 8]
+// config.SOFT_TAKE_PROFIT_PERCENT = 0.7 // How many * available are selling
+// Peak take profit
+config.PEAK_TAKE_PROFIT_THRESHOLD = 2
+// After Peak threshold, if TIMEOUT ms later the profit times is not greater than right now, SELL ALL
+config.PEAK_TAKE_PROFIT_TIMEOUT = 700
+// Max drawback starting point
+config.MAX_DRAWBACK_START = 2
+// Max drawback to trigger take profit
+config.MAX_DRAWBACK = 0.7
+
+module.exports = config
+```
+
 ## Usage
 
 First `make sure you have available balance` for the trading pair.
 
 For example, you know the trading pair is XXXX/BTC, then you need to have BTC in your available balance. (Command output will show this).
 
-Then, just run this 1~2 minutes before the pump starts.
+Then, just run the following command 1~2 minutes before the pump starts:
 
 ```bash
 $ npm start
@@ -57,3 +91,16 @@ and follow the command output instructions.
 Sell orders are triggered automatically by configuration in `pump-config.js`, or manually with hotkeys(`check command line output`).
 
 All orders placed by this script will show up in your Binance app or Binance.com as well. You can review these for next-time-better-strategies.
+
+## Proxy/VPN Usage(For CN Users especially)
+
+Search for `Proxy` in `pump.js`
+
+## Donation
+
+If this script helped you make profits or you simply want to support, feel free to donate to these addresses:
+
+- BTC(BTC): 1NjtcdoBwNhVfbvMf62NhwQaqUyR9wJBXt
+- BTC(ERC20): 0x13bc95cf2405477bf81644cd1825004d1e613d75
+- ETH(ERC20): 0x13bc95cf2405477bf81644cd1825004d1e613d75
+- USDT(ERC20): 0x13bc95cf2405477bf81644cd1825004d1e613d75

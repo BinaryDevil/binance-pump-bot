@@ -94,7 +94,7 @@ All orders placed by this script will show up in your Binance app or Binance.com
 
 ## Proxy/VPN Usage(For CN Users especially)
 
-Search for `Proxy` in `pump.js`
+Search for `Proxy` in `pump.js`, change them to your local VPN port.
 
 ## Donation
 

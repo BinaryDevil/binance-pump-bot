@@ -100,6 +100,8 @@ Search for `Proxy` in `pump.js`
 
 If this script helped you make profits or you simply want to support, feel free to donate to these addresses:
 
+![image-20210207190121838](/Users/alex/Workspace/SideProjects/binance-pump-bot/deposit-qr.png)
+
 - BTC(BTC): 1NjtcdoBwNhVfbvMf62NhwQaqUyR9wJBXt
 - BTC(ERC20): 0x13bc95cf2405477bf81644cd1825004d1e613d75
 - ETH(ERC20): 0x13bc95cf2405477bf81644cd1825004d1e613d75

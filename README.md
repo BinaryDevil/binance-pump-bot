@@ -92,6 +92,25 @@ Sell orders are triggered automatically by configuration in `pump-config.js`, or
 
 All orders placed by this script will show up in your Binance app or Binance.com as well. You can review these for next-time-better-strategies.
 
+## Hotkeys
+
+When the initial purchase is made, hotkeys are enabled:
+
+```bash
+1 - SELL ALL
+2 - SELL HALF
+3 - SELL QUARTER
+4 - SELL 10%
+5 - BUY ALL(based on your balance)
+6 - BUY HALF
+7 - BUY QUARTER
+o - Open browser with the Trading Pair
+0 - Toggle Manual(no take profits or stop losses)
+(Enter key not needed)
+```
+
+Note: `the script is not ready for second-entry during pumps, operate only with your first purchase.`
+
 ## Proxy/VPN Usage(For CN Users especially)
 
 Search for `Proxy` in `pump.js`, change them to your local VPN port.

@@ -70,6 +70,8 @@ module.exports = config
 
 ## Usage
 
+### Running
+
 First `make sure you have available balance` for the trading pair.
 
 For example, you know the trading pair is XXXX/BTC, then you need to have BTC in your available balance. (Command output will show this).
@@ -79,6 +81,12 @@ Then, just run the following command 1~2 minutes before the pump starts:
 ```bash
 $ npm start
 ```
+
+`For Windows, compatibility is better with Windows PowerShell or Git Bash. Using these two command line tools is recommended.`
+
+I personally don't use Windows that much, if you find trouble running the script, try `Windows PowerShell` or `Git Bash`.
+
+### The Process
 
 Have the discord or Telegram or any communication tool that your group uses on the side,
 
@@ -114,6 +122,12 @@ Note: `the script is not ready for second-entry during pumps, operate only with 
 ## Proxy/VPN Usage(For CN Users especially)
 
 Search for `Proxy` in `pump.js`, change them to your local VPN port.
+
+## Contribution
+
+Any feature add/improvements are welcome, just send a PR.
+
+This is a very sideways project for me, I might have little time to maintain this (and that I don't participate p&ds any more).
 
 ## Donation
 

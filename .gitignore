@@ -1,3 +1,4 @@
 node_modules
 debug.log
 package-lock.json
+.DS_Store

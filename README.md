@@ -133,9 +133,5 @@ This is a very sideways project for me, I might have little time to maintain thi
 
 If this script helped you make profits or you simply want to support, feel free to donate to these addresses:
 
-![image-20210207190121838](./deposit-qr.png)
-
-- BTC(BTC): 1NjtcdoBwNhVfbvMf62NhwQaqUyR9wJBXt
-- BTC(ERC20): 0x13bc95cf2405477bf81644cd1825004d1e613d75
-- ETH(ERC20): 0x13bc95cf2405477bf81644cd1825004d1e613d75
-- USDT(ERC20): 0x13bc95cf2405477bf81644cd1825004d1e613d75
+- Ethereum ERC20：0xa4AaDceA7c1b0B23978fbea24faA097beF9335B1
+- BSC BEP20：0xa4AaDceA7c1b0B23978fbea24faA097beF9335B1

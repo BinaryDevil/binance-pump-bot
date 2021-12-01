@@ -12,6 +12,10 @@ Read these before you proceed.
 
 But, `if you think there is a profit window in pump & dumps`, like I did, here's a little tool for you.
 
+## Further development
+
+This repository is no longer actively maintained, pull requests are welcome.
+
 ## Prerequisites
 
 ### Node.js
@@ -22,8 +26,10 @@ You must have (Node.js)[https://nodejs.org/en/] installed!
 
 `Clone` or `download` this repository, then:
 
-```bash
-$ npm install
+```shell
+git clone git@github.com:BinaryDevil/binance-pump-bot.git
+cd binance-pump-bot
+npm install
 ```
 
 Meanwhile, You need to put your own Binance.com API Key and API Secret in your local `config.js` for the script to run.
@@ -41,31 +47,31 @@ See `pump-config.js`, the `TRADE_IN` is important, it's the coin to trade for th
 default configurations are as follow, you can tweak these settings as you like:
 
 ```js
-let config = {}
+let config = {};
 
 // Config HERE
 // !!! The coin to trade in, make sure you have some in your balance
-config.TRADE_IN = 'BTC'
+config.TRADE_IN = "BTC";
 // Should market price BUY ALL upon symbol
-config.BUY_UPON_SYMBOL = true
+config.BUY_UPON_SYMBOL = true;
 // How many X before take profit happens (will sell 100%)
-config.HARD_TAKE_PROFIT = 3.3
+config.HARD_TAKE_PROFIT = 3.3;
 // Where to stop loss
-config.HARD_STOP_LOSS = 0.75
+config.HARD_STOP_LOSS = 0.75;
 // Soft stop loss (Array, please put in ascending order, orders will be put in quantity of divide of the array length, e.g length = 3 then sell 1/3 every time)
 // Not used anymore, bugs exist
 // config.SOFT_TAKE_PROFIT = [5, 6, 7, 8]
 // config.SOFT_TAKE_PROFIT_PERCENT = 0.7 // How many * available are selling
 // Peak take profit
-config.PEAK_TAKE_PROFIT_THRESHOLD = 2
+config.PEAK_TAKE_PROFIT_THRESHOLD = 2;
 // After Peak threshold, if TIMEOUT ms later the profit times is not greater than right now, SELL ALL
-config.PEAK_TAKE_PROFIT_TIMEOUT = 700
+config.PEAK_TAKE_PROFIT_TIMEOUT = 700;
 // Max drawback starting point
-config.MAX_DRAWBACK_START = 2
+config.MAX_DRAWBACK_START = 2;
 // Max drawback to trigger take profit
-config.MAX_DRAWBACK = 0.7
+config.MAX_DRAWBACK = 0.7;
 
-module.exports = config
+module.exports = config;
 ```
 
 ## Usage
@@ -129,7 +135,7 @@ Any feature add/improvements are welcome, just send a PR.
 
 This is a very sideways project for me, I might have little time to maintain this (and that I don't participate p&ds any more).
 
-## Donation
+## Buy me coffee
 
 If this script helped you make profits or you simply want to support, feel free to donate to these addresses:
 

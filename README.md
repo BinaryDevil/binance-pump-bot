@@ -24,7 +24,7 @@ You must have (Node.js)[https://nodejs.org/en/] installed!
 
 ## Installation
 
-`Clone` or `download` this repository, then:
+Run these in terminal or other command line tool:
 
 ```shell
 git clone git@github.com:BinaryDevil/binance-pump-bot.git
@@ -32,7 +32,7 @@ cd binance-pump-bot
 npm install
 ```
 
-Meanwhile, You need to put your own Binance.com API Key and API Secret in your local `config.js` for the script to run.
+Then, You need to put your own Binance.com API Key and API Secret in your local `config.js` for the script to run.
 
 You can request for one after logging into their [official site](binance.com).
 
